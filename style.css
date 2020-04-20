@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(44,43,43);
+  text-align: center;
+}
+
+#main{
+  position: relative;
+  margin-top: 15px;
+}
+
+img#logo{
+  margin-top: 30p;
+  width: 5%;
+}
+
+#first{
+  width: 308px;
+  margin-top: 0;
+  padding: 28px 25px;
+  background-color: #fff;
+  border: 1px solid rgb(253,252,252);
+  border-radius: 5;
+  position: absolute;
+  left: 50%;
+  margin-left: -180px;
+  top: 0;
+}
+
+#second{
+  width: 308px;
+  margin-top: 0;
+  padding: 28px 25px;
+ background-color: #fff;
+ display: none;
+ border: 1px solid #000;
+ border-radius: 5;
+ position: absolute;
+ left: 50%;
+ margin-left: -180px;
+ top: 0;
+ margin-bottom: 2%;
+}
+
+h3{
+  margin-top: 0;
+}
+input[type=text],[type=password]{
+  padding: 7px;
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(160,158,158);
+}
+
+input[type=button]{
+  background-color: rgb(245,12,12);
+  color: #fff;
+  width: 306px;
+  height: 40px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 700px;
+  cursor: pointer;
+}
+
+input[type=button]:hover{
+background: linear-gradient(to bottom, #bd1919 5%, #e20909) 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #2e6de4;
+}
+p#two{
+  margin-bottom: 0;
+}
